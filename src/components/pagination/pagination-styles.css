@@ -1,0 +1,29 @@
+.pagination_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  margin: 0px auto;
+}
+
+.left_arrow,
+.right_arrow,
+.page_number {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  background: #e93f3f;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+}

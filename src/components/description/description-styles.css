@@ -1,0 +1,42 @@
+.main_description_container {
+  background: white;
+  width: 90%;
+  margin: 10px auto 20px;
+  border-radius: 15px;
+  height: auto;
+  box-shadow: 0 0 21px -15px black;
+  text-align: left;
+  padding: 8px;
+}
+
+.description_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left_description,
+.right_description {
+  flex-grow: 1;
+}
+
+.contact,
+.website,
+.email,
+.phone,
+.city,
+.street,
+.suite,
+.zip_code {
+  line-height: 1.5;
+  padding: 15px 10px;
+  text-align: left;
+  margin: -10px 5px 5px 15px;
+}
+
+.header {
+  margin: 0 0 15px 25px;
+}
+
+.title {
+  font-weight: bold;
+}

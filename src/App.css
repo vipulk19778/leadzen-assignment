@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+body {
+  padding-right: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
